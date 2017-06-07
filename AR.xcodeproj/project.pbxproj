@@ -14,6 +14,7 @@
 		E06A84BC1EE66AC600CBDA8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E06A84BA1EE66AC600CBDA8E /* LaunchScreen.storyboard */; };
 		E06A84C71EE66AC600CBDA8E /* ARTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06A84C61EE66AC600CBDA8E /* ARTests.swift */; };
 		E06A84D21EE66AC600CBDA8E /* ARUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06A84D11EE66AC600CBDA8E /* ARUITests.swift */; };
+		E09B00081EE7F41800E65A94 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = E09B00071EE7F41800E65A94 /* art.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E06A84CD1EE66AC600CBDA8E /* ARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E06A84D11EE66AC600CBDA8E /* ARUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARUITests.swift; sourceTree = "<group>"; };
 		E06A84D31EE66AC600CBDA8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E09B00071EE7F41800E65A94 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; name = art.scnassets; path = ../../arr/arr/art.scnassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		E06A84B01EE66AC600CBDA8E /* AR */ = {
 			isa = PBXGroup;
 			children = (
+				E09B00071EE7F41800E65A94 /* art.scnassets */,
 				E06A84B11EE66AC600CBDA8E /* AppDelegate.swift */,
 				E06A84B31EE66AC600CBDA8E /* ViewController.swift */,
 				E06A84B51EE66AC600CBDA8E /* Main.storyboard */,
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E06A84BC1EE66AC600CBDA8E /* LaunchScreen.storyboard in Resources */,
+				E09B00081EE7F41800E65A94 /* art.scnassets in Resources */,
 				E06A84B91EE66AC600CBDA8E /* Assets.xcassets in Resources */,
 				E06A84B71EE66AC600CBDA8E /* Main.storyboard in Resources */,
 			);
@@ -524,6 +528,7 @@
 				E06A84D81EE66AC600CBDA8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E06A84D91EE66AC600CBDA8E /* Build configuration list for PBXNativeTarget "ARTests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +537,7 @@
 				E06A84DB1EE66AC600CBDA8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E06A84DC1EE66AC600CBDA8E /* Build configuration list for PBXNativeTarget "ARUITests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +546,7 @@
 				E06A84DE1EE66AC600CBDA8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
